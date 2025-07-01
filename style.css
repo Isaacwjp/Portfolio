@@ -65,15 +65,38 @@ button {
 }
 
 img {
-  height: 240px;
+  height: 300px;
   width: 591px;
+  display: flex;
   flex-shrink: 1;
   min-width: 221px;
 }
-/* TOP Section content END*/
+
 
 .headerbar,
 .introitems {
   padding-left: 200px;
   padding-right: 200px;
+}
+/* TOP Section content END*/
+
+.projects {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
 }
